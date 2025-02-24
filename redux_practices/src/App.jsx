@@ -1,6 +1,7 @@
 import React from "react";
 import AddUser from "./component/AddUser";
 import ShowUser from "./component/ShowUser";
+import TodoList from "./component/TodoList";
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
       <div className="container">
         <AddUser />
         <ShowUser />
+        <TodoList />
       </div>
     </div>
   );
